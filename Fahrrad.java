@@ -1,7 +1,32 @@
-
-
-
 public class Fahrrad
 {
-    
+  private String marke = "UNKN";
+  private int gaenge = 0;   
+  private boolean elektrisch = false ;
+  public String getMarke()
+  {
+    return marke;  
+  }
+  public int getGaenge ()
+  {
+    return gaenge; 
+  }
+  public boolean getElektrisch()
+  {
+   return elektrisch;   
+  }
+  public void setMarke (String neuMarke)
+  {
+  marke = neuMarke;
+  }
+  public void setGaege (int neuGaenge)
+  {
+   gaenge = neuGaenge;  
+  }
+  public void setElekrisch (boolean neuElekrisch)
+  {
+   elektrisch = neuElekrisch;
+  }
+
+  
 }
