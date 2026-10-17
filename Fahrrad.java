@@ -17,22 +17,25 @@ public class Fahrrad
   }
   public void setMarke (String neuMarke)
   {
-  marke = neuMarke;
+    marke = neuMarke;
   }
   public void setGaege (int neuGaenge)
   {
-   gaenge = neuGaenge;  
+    gaenge = neuGaenge;  
   }
   public void setElekrisch (boolean neuElekrisch)
   {
-   elektrisch = neuElekrisch;
+    elektrisch = neuElekrisch;
   }
   public Fahrrad(String neuMarke , int neuGaenge , boolean neuElekrisch)
   {
     marke      =neuMarke;
     gaenge     =neuGaenge;
     elektrisch =neuElekrisch;
-  
+  }  
+  public void printFahrrad()
+  {
+    System.out.println(marke + " Fahrrad: " + gaenge + " Gaenge - " + elektrisch);   
   }
 }
   
