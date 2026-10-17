@@ -37,5 +37,6 @@ public class Fahrrad
   {
     System.out.println(marke + " Fahrrad: " + gaenge + " Gaenge - " + elektrisch);   
   }
+  
 }
   
