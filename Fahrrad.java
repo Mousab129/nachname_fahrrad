@@ -27,6 +27,12 @@ public class Fahrrad
   {
    elektrisch = neuElekrisch;
   }
-
+  public Fahrrad(String neuMarke , int neuGaenge , boolean neuElekrisch)
+  {
+    marke      =neuMarke;
+    gaenge     =neuGaenge;
+    elektrisch =neuElekrisch;
   
+  }
 }
+  
