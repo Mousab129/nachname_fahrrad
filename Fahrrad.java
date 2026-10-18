@@ -57,7 +57,7 @@ public class Fahrrad
   }
   public void printFahrrad()
   {
-    System.out.println(marke + " Fahrrad: " + gaenge + " Gaenge,Preis: " +preis +", Elektrisch:" + elektrisch +" , Gefedert:" + gefedert);   
+    System.out.println("Fahrrad: " + marke + " - " + gaenge + " Gänge - " + (elektrisch ? "elektrisch" : "ohne Motor"));  
   }
 }
   
