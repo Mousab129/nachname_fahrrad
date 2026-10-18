@@ -32,7 +32,15 @@ public class Fahrrad
   }
   public void setGaege (int gaenge)
   {
-    this.gaenge = gaenge;  
+        if (gaenge >= 1 && gaenge <= 30)
+         {
+         this.gaenge = gaenge;
+         }
+         else
+         {
+         this.gaenge = 1;
+         System.out.println("Fehler: Gaenge muss zwischen 1 und 30 liegen.");
+         }
   }
   public void setPreis (int preis)
   {
