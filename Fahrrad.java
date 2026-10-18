@@ -26,38 +26,38 @@ public class Fahrrad
   {
     return gefedert;
   }
-  public void setMarke (String neuMarke)
+  public void setMarke (String marke)
   {
-    marke = neuMarke;
+    this.marke = marke;
   }
-  public void setGaege (int neuGaenge)
+  public void setGaege (int gaenge)
   {
-    gaenge = neuGaenge;  
+    this.gaenge = gaenge;  
   }
-  public void setPreis (int neuPreis)
+  public void setPreis (int preis)
   {
-    preis  =  neuPreis; 
+    this.preis  =  preis; 
   }
-  public void setElekrisch (boolean neuElekrisch)
+  public void setElektrisch (boolean elektrisch)
   {
-    elektrisch = neuElekrisch;
+    this.elektrisch = elektrisch;
   }
-  public void setGefedert (boolean neuGefedert )
+  public void setGefedert (boolean gefedert )
   {
-   gefedert = neuGefedert;  
+   this.gefedert = gefedert;  
   }
-  public Fahrrad(String neuMarke , int neuGaenge ,int neuPreis, boolean neuElekrisch,boolean neuGefedert)
+  public Fahrrad(String marke , int gaenge ,int preis, boolean elektrisch,boolean gefedert)
   {
-    marke      =neuMarke;
-    gaenge     =neuGaenge;
-    preis      =  neuPreis;
-    elektrisch =neuElekrisch;
-    gefedert   =neuGefedert;
+    this.marke      =marke;
+    this.gaenge     =gaenge;
+    this.preis      =  preis;
+    this.elektrisch = elektrisch;
+    this.gefedert   =gefedert;
      
   }
   public void printFahrrad()
   {
-    System.out.println(marke + " Fahrrad: " + gaenge + " Gaenge,Preis: " +preis +", Elekrisch:" + elektrisch +" , Gefedert:" + gefedert);   
+    System.out.println(marke + " Fahrrad: " + gaenge + " Gaenge,Preis: " +preis +", Elektrisch:" + elektrisch +" , Gefedert:" + gefedert);   
   }
 }
   
