@@ -30,7 +30,7 @@ public class Fahrrad
   {
     this.marke = marke;
   }
-  public void setGaege (int gaenge)
+  public void setGaenge (int gaenge)
   {
         if (gaenge >= 1 && gaenge <= 30)
          {
